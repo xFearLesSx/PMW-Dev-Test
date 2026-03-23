@@ -109,7 +109,7 @@ body.nav-open {
 #header {
     min-height: 1100px;
     padding: 0 25px;
-    background: linear-gradient(180deg,#fff 0,rgba(255,255,255,.949698) 14.82%,rgba(255,255,255,.836261) 29%,rgba(255,255,255,.269091) 67.36%,rgba(255,255,255,0) 100%),url(images/optimized/bnr-bg.jpg) no-repeat center;
+    background: linear-gradient(180deg,#fff 0,rgba(255,255,255,.949698) 14.82%,rgba(255,255,255,.836261) 29%,rgba(255,255,255,.269091) 67.36%,rgba(255,255,255,0) 100%),url(images/optimized/bnr-bg-desktop.jpg) no-repeat center;
     background-size: 2000px;
 }
 
@@ -338,7 +338,7 @@ body.nav-open {
 #middle3 {
     min-height: 662px;
     padding: 40px 25px;
-    background: linear-gradient(90deg,rgba(54,81,108,0) 0,rgba(54,81,108,.634974) 59.19%,rgba(54,81,108,.725353) 76.3%,rgba(54,81,108,.9) 100%),url(images/optimized/mid3-bg.jpg) no-repeat center;
+    background: linear-gradient(90deg,rgba(54,81,108,0) 0,rgba(54,81,108,.634974) 59.19%,rgba(54,81,108,.725353) 76.3%,rgba(54,81,108,.9) 100%),url(images/optimized/mid3-bg-desktop.jpg) no-repeat center;
     background-size: 2051px;
 }
 
@@ -386,7 +386,7 @@ body.nav-open {
 #middle4 {
     min-height: 1500px;
     padding: 40px 25px;
-    background: url(images/optimized/mid4-bg1.jpg) no-repeat center;
+    background: url(images/optimized/mid4-bg1-desktop.jpg) no-repeat center;
     background-size: 2000px;
 }
 
@@ -497,6 +497,10 @@ body.nav-open {
 
 #footer .ftr-address {
     width: max-content;
+}
+
+#footer .ftr-address address {
+    margin: 0;
 }
 
 #footer ul {
